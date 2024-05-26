@@ -78,4 +78,15 @@
       <version>3.2.5</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+<!--    将项目打包的插件-->
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>3.2.5</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
